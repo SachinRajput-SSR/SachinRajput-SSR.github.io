@@ -228,3 +228,27 @@ I'm **Sachin Singh Tanwar**, a passionate cybersecurity student and ethical hack
 
 ## 🎓 My Journey: Zero to Hero
 
+Phase 1: Foundations ✅ → Phase 2: Intermediate 🔄 → Phase 3: Advanced 📈 → Phase 4: Expert 🎯
+
+
+I'm building a structured path from **beginner to advanced** cybersecurity, documenting every project and lesson learned.
+
+<div class="section-spacer"></div>
+
+---
+
+## 🔗 Connect & Collaborate
+
+<div style="text-align: center; margin: 60px 0; padding: 20px;">
+  <p style="font-size: 16px; color: #e2e8f0; margin-bottom: 25px;">
+    I'm always open to collaborations, mentorship, and technical discussions!
+  </p>
+  <a href="https://www.linkedin.com/in/sachin-singh-tanwar-5582582b4/" class="btn btn--info btn--large" style="margin: 10px;">💼 LinkedIn</a>
+  <a href="https://github.com/SachinRajput-SSR" class="btn btn--info btn--large" style="margin: 10px;">🐙 GitHub</a>
+  <a href="mailto:your-email@example.com" class="btn btn--info btn--large" style="margin: 10px;">📧 Email</a>
+</div>
+
+---
+
+**Last Updated:** {{ site.time | date: "%B %d, %Y" }}
+
