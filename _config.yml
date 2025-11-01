@@ -1,1 +1,162 @@
+# =========================================
+# SITE CONFIGURATION
+# =========================================
+
+locale: "en-US"
+title: "Sachin Singh Tanwar"
+title_separator: "|"
+subtitle: "Cybersecurity Portfolio"
+name: "Sachin Singh Tanwar"
+description: "BTech Cybersecurity Student | Ethical Hacker | Python Developer | Building Practical Security Solutions"
+url: "https://sachinrajput-ssr.github.io"
+baseurl: ""
+repository: "SachinRajput-SSR/SachinRajput-SSR.github.io"
+teaser: "/assets/images/default-teaser.jpg"
+logo: ""
+masthead_title: ""
+
+# =========================================
+# JEKYLL THEME
+# =========================================
+
+remote_theme: mmistakes/minimal-mistakes@4.26.0
+minimal_mistakes_skin: "dark"
+
+# =========================================
+# READING FILES
+# =========================================
+
+include:
+  - .htaccess
+  - _pages
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - test/
+  - docs/
+
+# =========================================
+# PLUGINS
+# =========================================
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# =========================================
+# PAGINATION
+# =========================================
+
+paginate: 6
+paginate_path: /blog/page:num/
+
+# =========================================
+# AUTHOR/SOCIAL
+# =========================================
+
+author:
+  name: "Sachin Singh Tanwar"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "🎯 BTech Cybersecurity Student | 🔐 Ethical Hacker | 🐍 Python Developer | Building practical security solutions and sharing knowledge with the community."
+  location: "India"
+  email: "your-email@example.com"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/sachin-singh-tanwar-5582582b4/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/SachinRajput-SSR"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/yourusername"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:your-email@example.com"
+
+# =========================================
+# FOOTER
+# =========================================
+
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/sachin-singh-tanwar-5582582b4/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/SachinRajput-SSR"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/yourusername"
+
+# =========================================
+# JEKYLL DEFAULTS
+# =========================================
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+      sidebar:
+        nav: "docs"
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+
+# =========================================
+# SASS/SCSS
+# =========================================
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# =========================================
+# SEARCH
+# =========================================
+
+search: true
+search_full_content: true
+search_provider: "lunr"
+
+# =========================================
+# MARKDOWN
+# =========================================
+
+markdown: CommonMark
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
