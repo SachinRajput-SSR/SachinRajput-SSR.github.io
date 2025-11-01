@@ -1,0 +1,7 @@
+{% assign words = page.content | number_of_words %}
+{% assign minutes = words | divided_by:200 %}
+{% if minutes < 1 %}
+   <span>1 min read</span>
+{% else %}
+   <span>{{ minutes }} min read</span>
+{% endif %}
