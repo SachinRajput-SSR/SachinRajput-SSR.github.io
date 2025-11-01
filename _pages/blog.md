@@ -8,6 +8,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/blog-header.jpg
 excerpt: "Cybersecurity Articles, Tutorials & Technical Write-ups"
+paginate: true
 ---
 
 <style>
