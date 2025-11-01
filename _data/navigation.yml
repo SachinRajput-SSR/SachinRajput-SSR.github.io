@@ -1,1 +1,36 @@
+# Main Navigation
+main:
+  - title: "🏠 Home"
+    url: /
+  - title: "🔒 Skills"
+    url: /skills/
+  - title: "🚀 Projects"
+    url: /projects/
+  - title: "🏆 Certifications"
+    url: /certifications/
+  - title: "📚 Blog"
+    url: /blog/
+  - title: "👤 About"
+    url: /about/
+
+# Documentation Navigation (for sidebar)
+docs:
+  - title: Getting Started
+    children:
+      - title: "Home"
+        url: /
+      - title: "About"
+        url: /about/
+  - title: Technical
+    children:
+      - title: "Skills"
+        url: /skills/
+      - title: "Projects"
+        url: /projects/
+      - title: "Certifications"
+        url: /certifications/
+  - title: Content
+    children:
+      - title: "Blog"
+        url: /blog/
 
